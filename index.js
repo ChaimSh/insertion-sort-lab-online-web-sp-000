@@ -11,14 +11,22 @@ function findMinAndRemove(array){
   return min
 }
 
-
-
-function selectionSort(array){
-  let sortedArray = [];
-  let min
-  while (array.length > 0) {
+function insertionSort(array){
+  let sorted = []
+  let min;
+  while(array.length != 0){
     min = findMinAndRemove(array)
-    sortedArray.push(min)
+    sorted.push(min)
   }
-  return sortedArray;
+  return sorted;
 }
+//
+// function selectionSort(array){
+//   let sortedArray = [];
+//   let min
+//   while (array.length > 0) {
+//     min = findMinAndRemove(array)
+//     sortedArray.push(min)
+//   }
+//   return sortedArray;
+// }
