@@ -1,6 +1,11 @@
 function findMinAndRemove(array){
-  const array1 = [2,3,4]
-   console.log(Math.min(2, 3, 4))
+  let min = []
+  for (i = 1, i < array.length - 1, i++) {
+    if (array[i] < array[0]){
+      array[0] = array[i]
+      min = array[0]
+    } 
+  }
 }
 
 function selectionSort(array){
