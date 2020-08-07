@@ -4,7 +4,7 @@ function findMinAndRemove(array){
     if (array[i] < array[0]){
       array[0] = array[i]
       min = array[0]
-    } 
+    }
   }
 }
 
