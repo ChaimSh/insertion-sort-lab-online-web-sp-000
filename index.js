@@ -1,5 +1,5 @@
 function findMinAndRemove(array){
-  let min = []
+  let min
   for (let i = 0; i < array.length - 1; i++) {
     if (array[i] < array[0]){
       array[0] = array[i]
