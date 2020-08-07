@@ -1,5 +1,5 @@
 function findMinAndRemove(array){
-   console.log(Math.min(array))
+   return Math.min(array)
 }
 
 function selectionSort(array){
